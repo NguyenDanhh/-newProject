@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let a = [3 ,5 , 2 ,4];
+    let b = a.sort();
+    let max = a[0];
+    let min = a[0];
+    for(let i = 0 ; i < a.length ; i++){
+        if(a[i] > max){
+            max = a[i];
+        }
+
+    }
+    for(let i = 0 ; i < a.length ; i++){
+        if(a[i] < min){
+            min = a[i];
+        }
+
+    }
+    document.write('Max : ' + max + '<br>');
+    document.write('Min : ' + min + '<br>');
+    document.write(b);
+    document.write(a.sort(compareNumbers));
+</script>
+</body>
+</html>
