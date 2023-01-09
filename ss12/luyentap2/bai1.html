@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let arr = [];
+    let sum = 0 ;
+    let n = +prompt("Nhập vào độ dài của mảng ");
+    for(let x = 0 ; x < n  ; x++){
+        arr[x] = +prompt("Nhập vào phần tử thứ " + x);
+    }
+    document.write(arr + '<br>');
+    for(let i = 1 ; i < arr.length ; i = i +2 ){
+        if(arr[i] % 2 != 0 ){
+            continue;
+        }
+        sum = sum + arr[i];
+    }
+    document.write('tổng các số chẵn ở vị trí lẻ là : '+sum);
+</script>
+</body>
+</html>

@@ -6,7 +6,15 @@
 </head>
 <body>
 <script>
-    
+    let a = +prompt("nhập số buổi của Module");
+    let b = +prompt("Nhập số buổi nghỉ ");
+    let r = (b / a) * 100;
+    document.write('bạn nghỉ ' + r.toFixed(1) + '%' + '<br>');
+    if (r >= 20) {
+        document.write("Bạn bị chuyển lớp");
+    } else if (r > 10) {
+        document.write("warning! bạn cần gửi mail");
+    }
 </script>
 </body>
 </html>

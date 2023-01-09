@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<script>
+    let ageFather = +prompt("Nhập tuổi cha");
+    let ageSon = +prompt("Nhập tuổi con ");
+    document.write('Số tuổi của cha : ' + ageFather + '<br>');
+    document.write('Số tuổi của con : ' + ageSon + '<br>');
+    for (let i = 0; ; i++) {
+        if (ageFather + i === 2 * (ageSon + i)) {
+            document.write('sau ' + i + ' năm nữa thì tuổi cha gấp đôi tuổi con ');
+            break;
+        }
+    }
+</script>
+</body>
+</html>

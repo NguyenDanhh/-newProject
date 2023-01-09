@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    for (let i = 0; ; i++) {
+        let number = +prompt("Nhập vào số nguyên tố");
+        if (number < 2 || number % 2 === 0 || number === 1) {
+            confirm("Đây không phải số nguyên tố mời nhập lại ");
+        } else if (number % 2 !== 0) {
+            document.write(number + " là số nguyên tố ");
+            break;
+        }
+    }
+
+</script>
+</body>
+</html>
