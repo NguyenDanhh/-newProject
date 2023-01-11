@@ -6,15 +6,28 @@
 </head>
 <body>
 <script>
-    let array = [];
-    let m = +prompt("Nhập vào độ dài của mảng ");
-    for(let i = 0 ; i < m ; i++){
-        let n = +prompt("nhập vào độ dài phần tử thứ " + i)
-        for(let j = 0 ; j < m; j++){
-            array = +prompt("Nhập vào giá trị cho phần tử " + j);
+    let i, j;
+    let mat = [10][10];
+    let sum = 0;
+    let m = +prompt("số phần tử mảng lớn");
+    let arrays = new Array(m);
+    for (i = 0; i < m; i++) {
+        let n = +prompt("nhập phần tử mảng con thứ " + i);
+        let array = new Array(n)
+        for (j = 0; j < n; j++) {
+            array[j] = +prompt("nhập giá trị cho mảng con thứ " + i);
+        }
+        arrays[i] = array;
+    }
+    console.log(arrays);
+    for (i = 0; i < m; i++) {
+        for (j = 0; j < n; j++) {
+            if (i == j) {
+                sum = sum + mat[i][j]
+            }
         }
     }
-    document.write(array)
+    console.log(sum);
 </script>
 </body>
 </html>

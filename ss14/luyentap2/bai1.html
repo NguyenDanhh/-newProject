@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let n = +prompt("Nhập vào độ dài của mảng ");
+    let array = [];
+    for (let x = 0; x < n; x++) {
+        array[x] = +prompt("Nhập vào phần tử thứ " + x);
+    }
+    document.write(array + '<br>');
+    let sum;
+    let flag = true;
+    let newArray = [];
+    for (let i = 0; i < array.length - 1; i++) {
+        sum = array[i + 1] - array[i];
+        newArray.push(sum);
+    }
+    for (let j = 1; j < newArray.length; j++) {
+        let find = newArray[0];
+        if (find !== newArray[j]) {
+            flag = false;
+            break;
+        }
+    }
+    if (flag) {
+        document.write('ok');
+    } else {
+        document.write('no');
+    }
+
+</script>
+</body>
+</html>

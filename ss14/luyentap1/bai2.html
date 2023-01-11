@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let n = +prompt("Nhập vào độ dài của mảng ");
+    let array = [];
+    for (let x = 0; x < n; x++) {
+        array[x] = prompt("Nhập vào phần tử thứ " + x);
+    }
+    document.write(array + '<br>')
+
+    function checkArray(x) {
+        let count = 0;
+        for (let i = 0; i < x.length; i++) {
+            if (x[i] >= 0) {
+                count++
+            }
+        }
+        if (count == x.length) {
+            return '1';
+        } else if (count == 0) {
+            return '0';
+        } else if (count >= 0 && count < x.length) {
+            return '-1';
+        }
+    }
+
+    document.write(checkArray(array));
+</script>
+</body>
+</html>

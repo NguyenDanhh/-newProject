@@ -6,37 +6,39 @@
 </head>
 <body>
 <script>
-    let cao = 40;
-    let tren = parseInt((cao / 100) * 40);
-    let duoi = cao - tren;
-    let hinhTren = "";
-    for (let i = tren / 4; i <= tren; i++) {
-        for (let k = 1; k < tren - i; k += 2) {
-            hinhTren += " ";
+    let  n = 6;
+
+    for (let i = n / 2; i < n; i += 2) {
+        // print first spaces
+        for (let j = 1; j < n - i; j += 2) {
+            console.log(' ')
         }
-        for (let k = 1; k <= i; k++) {
-            hinhTren += "*";
+        // print first stars
+        for (let j = 1; j < i + 1; j++) {
+            console.log('*')
         }
-        for (let k = 1; k <= tren - i; k++) {
-            hinhTren += " ";
+        // print second spaces
+        for (let j = 1; j < n - i + 1; j++) {
+            console.log(' ')
         }
-        for (let k = 0; k <= i; k++) {
-            hinhTren += "*";
+        // print second stars
+        for (let j = 1; j < i + 1; j++) {
+            console.log('*')
         }
-        hinhTren += "\n";
+        console.log();
     }
-    let hinhDuoi = "";
-    for (let i = 1; i <= duoi; i++) {
-        for (let j = 1; j < i; j++) {
-            hinhDuoi += " ";
-        }
-        for (let k = (cao + duoi) / 2; k >= i * 2 - 1; k--) {
-            hinhDuoi += "*";
-        }
-        hinhDuoi += "\n";
-    }
-    let hinhTraiTim = hinhTren + hinhDuoi;
-    console.log(hinhTraiTim);
+    // lower part
+    // inverted pyramid
+    // for (let i = n; i > 0; i--) {
+    //     for (let j = 0; j < n - i; j++) {
+    //         console.log(' ')
+    //     }
+    //     for (let j = 1; j < i * 2; j++) {
+    //         console.log('*')
+    //     }
+    //     console.log();
+    // }
+
 </script>
 </body>
 </html>
