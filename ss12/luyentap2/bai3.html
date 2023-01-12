@@ -6,17 +6,23 @@
 </head>
 <body>
 <script>
+    let n = +prompt("Nhập vào số lượng phần tử ");
+    let i = 0;
     let arr = [];
-    let n = +prompt("Nhập vào độ dài của mảng ");
-    for (let x = 0; x < n; x++) {
-        arr[x] = +prompt("nhập vào phần tử của mảng ");
+    for (let i = 0; i < n; i++) {
+        do {
+            arr[i] = +prompt("Nhap phan tu thứ " +(i + 1)+ " : ");
+        }
+        while (!checkArr(arr, i));
     }
-    do{
-        if()
-        alert("Đã có phần tử trùng nhau");
-        arr[x] = +prompt("mời bạn nhập lại ");
-    }while ()
-    console.log(arr);
+    function checkArr(arr, i) {
+        for (let j = 0; j < i; j++) {
+            if (arr[i] == arr[j]) {
+                return false
+            }
+        }
+        return true;
+    }
 </script>
 </body>
 </html>

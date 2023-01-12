@@ -10,7 +10,7 @@
 
     function findMaxNumber(n) {
         let array = [];
-        if (n < 999) {
+        if (n < 1000 || n >= 10000) {
             document.write("-1");
         } else {
             array = n.toString().split("");
@@ -21,10 +21,12 @@
                         let temp = array[i];
                         array[i] = array[j];
                         array[j] = temp;
+
                     }
                 }
             }
-            document.write(array);
+            array.pop();
+            document.write(array.join(""));
         }
     }
 

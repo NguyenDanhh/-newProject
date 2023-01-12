@@ -6,28 +6,33 @@
 </head>
 <body>
 <script>
-    let i, j;
-    let mat = [10][10];
-    let sum = 0;
+
     let m = +prompt("số phần tử mảng lớn");
-    let arrays = new Array(m);
-    for (i = 0; i < m; i++) {
-        let n = +prompt("nhập phần tử mảng con thứ " + i);
-        let array = new Array(n)
-        for (j = 0; j < n; j++) {
-            array[j] = +prompt("nhập giá trị cho mảng con thứ " + i);
+    let array = new Array(m);
+    for (let i = 0; i < m; i++) {
+        let n = +prompt("nhập độ dài mảng con thứ " + (i + 1));
+        let array1 = new Array(n)
+        for (let j = 0; j < n; j++) {
+            array1[j] = +prompt("nhập giá trị cho mảng con thứ " + (i + 1));
         }
-        arrays[i] = array;
+        array[i] = array1;
     }
-    console.log(arrays);
-    for (i = 0; i < m; i++) {
-        for (j = 0; j < n; j++) {
+    console.log(array);
+    let sum, sum1 = 0, sum2 = 0;
+    for (let i = 0; i < array.length; i++) {
+        for (let j = 0; j < array[i].length; j++) {
             if (i == j) {
-                sum = sum + mat[i][j]
+                sum1 = sum1 + array[i][j];
+            }
+            if (i + j == array.length - 1) {
+                sum2 = sum2 + array[i][j];
             }
         }
     }
-    console.log(sum);
+    sum = sum1 + sum2;
+    document.write("Tổng đường chéo thứ nhất  " + sum1 + '<br>');
+    document.write("Tổng đường chéo thứ hai " + sum2 + '<br>');
+    document.write("Tổng hai đường chéo : " + sum + '<br>');
 </script>
 </body>
 </html>
