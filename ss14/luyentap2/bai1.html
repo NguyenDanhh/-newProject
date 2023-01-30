@@ -8,30 +8,33 @@
 <script>
     let n = +prompt("Nhập vào độ dài của mảng ");
     let array = [];
-    for (let x = 0; x < n; x++) {
-        array[x] = +prompt("Nhập vào phần tử thứ " + (x + 1);
+    for (let i = 0; i < n; i++) {
+        array[i] = +prompt("Nhập vào phần tử thứ " + (i + 1));
     }
-    document.write(array + '<br>');
-    let sum;
-    let flag = true;
-    let newArray = [];
-    for (let i = 0; i < array.length - 1; i++) {
-        sum = array[i + 1] - array[i];
-        newArray.push(sum);
-    }
-    for (let j = 1; j < newArray.length; j++) {
-        let find = newArray[0];
-        if (find !== newArray[j]) {
-            flag = false;
-            break;
+    document.writeln(array + '<br>');
+
+    function checkArray(x) {
+        let sum;
+        let flag = true;
+        let array1 = []
+        for (let i = 0; i < x.length - 1; i++) {
+            sum = array[i + 1] - array[i];
+            array1.push(sum)
         }
-    }
-    if (flag) {
-        document.write('ok');
-    } else {
-        document.write('no');
+        for (let j = 0; j < array1.length; j++) {
+            if (array1[0] != array1[j]) {
+                flag = false;
+            }
+        }
+        if (flag) {
+            return 'OK';
+        } else if (flag == false) {
+            return 'NO';
+        }
+
     }
 
+    document.writeln(checkArray(array))
 </script>
 </body>
 </html>

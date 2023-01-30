@@ -6,18 +6,18 @@
 </head>
 <body>
 <script>
-    let n = +prompt("Nhập vào độ dài của mảng ");
     let array = [];
-    for (let x = 0; x < n; x++) {
-        array[x] = prompt("Nhập vào phần tử thứ " + (x + 1));
+    let number = +prompt("Nhập vào độ dài của mảng ");
+    for (let i = 0; i < number; i++) {
+        array[i] = prompt("Nhập vào phần tử thứ " + (i + 1));
     }
-    document.write(array + '<br>')
+    document.write(array + '<br>');
 
     function checkArray(x) {
-        let count = 0;
+        let count = 0
         for (let i = 0; i < x.length; i++) {
             if (x[i] >= 0) {
-                count++
+                count++;
             }
         }
         if (count == x.length) {
@@ -27,9 +27,11 @@
         } else if (count >= 0 && count < x.length) {
             return '-1';
         }
+
     }
 
     document.write(checkArray(array));
+
 </script>
 </body>
 </html>

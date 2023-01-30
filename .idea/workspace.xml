@@ -20,9 +20,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="27af02f3-c6b6-4cf3-8080-1f786a36f369" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/ss12/mang2 chieu.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss10/luyentap1/bai1.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss10/luyentap1/bai1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss12/luyentap2/bai3.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss12/luyentap2/bai3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss14/luyentap1/bai1.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss14/luyentap1/bai1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss14/luyentap1/bai2.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss14/luyentap1/bai2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss14/luyentap2/bai1.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss14/luyentap2/bai1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss7/bai1.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss7/bai1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss8/luyentap1/bai2.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss8/luyentap1/bai2.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -122,7 +126,14 @@
       <workItem from="1673453937432" duration="595000" />
       <workItem from="1673490275511" duration="14738000" />
       <workItem from="1673578422806" duration="3120000" />
-      <workItem from="1673584529171" duration="4944000" />
+      <workItem from="1673584529171" duration="6747000" />
+      <workItem from="1673717899039" duration="3000" />
+      <workItem from="1674643245651" duration="26000" />
+      <workItem from="1674643300086" duration="15000" />
+      <workItem from="1674644399859" duration="68000" />
+      <workItem from="1674644592418" duration="1000000" />
+      <workItem from="1675009437177" duration="2438000" />
+      <workItem from="1675057981278" duration="9838000" />
     </task>
     <servers />
   </component>
@@ -142,10 +153,10 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="549" y="163" key="FileChooserDialogImpl" timestamp="1672900617195">
+    <state x="549" y="163" key="FileChooserDialogImpl" timestamp="1674644466220">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state x="549" y="163" key="FileChooserDialogImpl/0.0.1536.816@0.0.1536.816" timestamp="1672900617195" />
+    <state x="549" y="163" key="FileChooserDialogImpl/0.0.1536.816@0.0.1536.816" timestamp="1674644466220" />
     <state width="1515" height="276" key="GridCell.Tab.0.bottom" timestamp="1673598381809">
       <screen x="0" y="0" width="1536" height="816" />
     </state>

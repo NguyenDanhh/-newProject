@@ -6,38 +6,36 @@
 </head>
 <body>
 <script>
-    let arr = [3 ,5 , 2 ,4];
-    let min , max ;
-    for(let i = 0 ; i < arr.length ; i++){
-        for(let j = i + 1 ; j < arr.length ; j++ ){
-            if(arr[i] < arr[j]){
-                let temp = arr[i];
-                arr[i] = arr[j];
-                arr[j] = temp;
-                max = arr[0];
-            }
-        }
-
+    let array = [];
+    let n = +prompt("Nhập vào độ dài của mảng ");
+    for (let i = 0; i < n; i++) {
+        array[i] = +prompt("Nhập vào phần tử số " + (i + 1));
     }
-    document.write("Sắp xếp từ lớn đến bé : "+arr + '<br>');
-
-    for(let i = 0 ; i < arr.length ; i++){
-        for(let j = i + 1 ; j < arr.length ; j++ ){
-            if(arr[i] > arr[j]){
-                let x = arr[i];
-                arr[i] = arr[j];
-                arr[j] = x;
-                min = arr[0];
+    let max, min;
+    for (let i = 0; i < array.length; i++) {
+        for (let j = 0; j < array.length; j++) {
+            if (array[i] > array[j]) {
+                let temp = array[i];
+                array[i] = array[j];
+                array[j] = temp;
+                max = array[0]
             }
         }
     }
-    document.write('Sắp xếp từ bé đến lớn : '+arr + '<br>');
-    document.write('Min là :'+min+ '<br>');
-    document.write('Max là : '+max+ '<br>');
-
-
-
-
+    document.writeln("Sắp xếp từ lớn đến bé : " + array + '<br>');
+    for (let i = 0; i < array.length; i++) {
+        for (let j = 0; j < array.length; j++) {
+            if (array[i] < array[j]) {
+                let temp = array[i];
+                array[i] = array[j];
+                array[j] = temp;
+                min = array[0]
+            }
+        }
+    }
+    document.writeln("Sắp xếp từ bé đến lớn : " + array + '<br>');
+    document.writeln('Max : ' + max + '<br>');
+    document.writeln('Min : ' + min + '<br>');
 </script>
 </body>
 </html>

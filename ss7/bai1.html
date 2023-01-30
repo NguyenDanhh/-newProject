@@ -5,12 +5,9 @@
     <title>Title</title>
 </head>
 <body style="background-color: darkred">
-
 <table style="background-color: white">
     <tr>
-        <td style=" color: white ; background-color: black ">
-            <center>TIP CALCULATOR</center>
-        </td>
+        <td style="background-color: black ; color: white">TIP CALCULATOR</td>
     </tr>
     <tr>
         <td>How much was your bill ?</td>
@@ -23,7 +20,7 @@
     </tr>
     <tr>
         <td>
-            <select id="tipMoney">
+            <select id="tips">
                 <option>30% - Outstanding</option>
                 <option>20% - Good</option>
                 <option>15% - It was OK</option>
@@ -33,50 +30,48 @@
         </td>
     </tr>
     <tr>
-        <td>How many people are sharing the bill?</td>
-    </tr>
-    <tr>
-        <td><input type="number" id="number">people</td>
-    </tr>
-    <tr>
         <td>
-            <button onclick="calculate()" style="background-color: firebrick">CACULATE</button>
+            How many people are sharing the bill ?
         </td>
     </tr>
     <tr>
+        <td><input type="text" id="people"></td>
+    </tr>
+    <tr>
         <td>
-            <div id="showResult"></div>
+            <button onclick="result()" style="background-color: firebrick">CALCULATE!</button>
         </td>
     </tr>
+    <tr>
+        <td><div id="showResult"></div></td>
+    </tr>
+
 </table>
 <script>
-    function calculate() {
-        let result = document.getElementById('showResult');
+    function result() {
         let money = document.getElementById('money').value;
-        let tip = document.getElementById('tipMoney').value;
-        let number = document.getElementById('number').value;
-        let sum;
-        switch (tip) {
+        let tips = document.getElementById('tips').value;
+        let people = document.getElementById('people').value;
+        let showResult = document.getElementById('showResult');
+        let total;
+        switch (tips) {
             case '30% - Outstanding':
-                sum = (money * 0.3) / number;
+                total = (money * 0.3) / people;
                 break;
             case '20% - Good':
-                sum = (money * 0.2) / number;
+                total = (money * 0.3) / people;
                 break;
             case '15% - It was OK':
-                sum = (money * 0.15) / number;
+                total = (money * 0.3) / people;
                 break;
             case '10% - BAD':
-                sum = (money * 0.1) / number;
+                total = (money * 0.3) / people;
                 break;
             case '5% - Terrible':
-                sum = (money * 0.05) / number;
+                total = (money * 0.3) / people;
                 break;
-
         }
-
-        result.innerHTML = `TIP AMOUNT ` + sum + `$ each`;
-
+        showResult.innerHTML = 'TIP AMOUNT $' + total + ' each';
     }
 </script>
 </body>
