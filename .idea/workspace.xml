@@ -20,13 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="27af02f3-c6b6-4cf3-8080-1f786a36f369" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ss12/mang2 chieu.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss14/luyentap1/bai1.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss14/luyentap1/bai1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss14/luyentap1/bai2.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss14/luyentap1/bai2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss14/luyentap2/bai1.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss14/luyentap2/bai1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss7/bai1.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss7/bai1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss8/luyentap1/bai2.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss8/luyentap1/bai2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss14/luyentap2/bai3.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss14/luyentap2/bai3.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -134,6 +129,7 @@
       <workItem from="1674644592418" duration="1000000" />
       <workItem from="1675009437177" duration="2438000" />
       <workItem from="1675057981278" duration="9838000" />
+      <workItem from="1675131559047" duration="2273000" />
     </task>
     <servers />
   </component>
