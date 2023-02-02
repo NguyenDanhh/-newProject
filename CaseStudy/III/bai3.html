@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let n = +prompt("Nhập vào độ dài của mảng ");
+    let numerators = [];
+    for (let x = 0; x < n; x++) {
+        numerators[x] = +prompt("Nhập vào phần tử đầu tiên cho tử ");
+    }
+    let m = +prompt("Nhập vào độ dài của mảng ");
+    let denominators = [];
+    for (let y = 0; y < m; y++) {
+        denominators [y] = +prompt("Nhập vào phần tử đầu tiên cho tử ");
+    }
+    document.writeln("Numerators = " + numerators + '<br>');
+    document.writeln("Denominators = " + denominators + '<br>');
+    let max = numerators[0] / denominators[0];
+    let count = 0;
+    for (let i = 1; i < numerators.length; i++) {
+        if (numerators[i] / denominators[i] > max) {
+            max = numerators[i] / denominators[i];
+            count += 1;
+        }
+
+
+    }
+    document.writeln('maxFraction : ' + max + '<br>');
+    document.writeln('index : ' + count + '<br>');
+
+</script>
+</body>
+</html>

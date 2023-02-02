@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let n = +prompt("Nhập vào độ dài mảng a ");
+    let arr = [];
+    for (let x = 0; x < n; x++) {
+        arr[x] = +prompt("Nhập vào phần tử thứ " + (x + 1));
+    }
+    let m = +prompt("Nhập vào độ dài mảng b ");
+    let arr2 = [];
+    for (let y = 0; y < m; y++) {
+        arr2[y] = +prompt("Nhập vào phần tử thứ " + (y + 1));
+    }
+    document.writeln("Mảng A : " + arr + '<br>');
+    document.writeln("Mảng B : " + arr2 + '<br>');
+    for (let k = 0; k < arr.length; k++) {
+        for (let z = 0; z < arr2.length; z++) {
+            if (arr[k] == arr2[z]) {
+                arr.splice(arr[k], 1);
+            }
+        }
+    }
+    document.writeln(arr);
+</script>
+</body>
+</html>

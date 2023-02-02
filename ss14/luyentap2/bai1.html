@@ -6,35 +6,30 @@
 </head>
 <body>
 <script>
-    let n = +prompt("Nhập vào độ dài của mảng ");
-    let array = [];
+    let n = +prompt("Nhập độ dài của mảng");
+    let arr = [];
     for (let i = 0; i < n; i++) {
-        array[i] = +prompt("Nhập vào phần tử thứ " + (i + 1));
+        arr[i] = +prompt("Nhập phần tử thứ " + (i + 1));
     }
-    document.writeln(array + '<br>');
-
-    function checkArray(x) {
-        let sum;
-        let flag = true;
-        let array1 = []
-        for (let i = 0; i < x.length - 1; i++) {
-            sum = array[i + 1] - array[i];
-            array1.push(sum)
-        }
-        for (let j = 0; j < array1.length; j++) {
-            if (array1[0] != array1[j]) {
-                flag = false;
-            }
-        }
-        if (flag) {
-            return 'OK';
-        } else if (flag == false) {
-            return 'NO';
-        }
-
+    document.writeln(arr + '<br>');
+    let sum;
+    let arr2 = [];
+    let flag = true;
+    for (let i = 0; i < arr.length - 1; i++) {
+        sum = arr[i + 1] - arr[i];
+        arr2.push(sum);
     }
-
-    document.writeln(checkArray(array))
+    for (let j = 0; j < arr2.length; j++) {
+        if (arr2[0] != arr2[j]) {
+            flag = false;
+            break;
+        }
+    }
+    if (flag) {
+        document.writeln('OK');
+    } else {
+        document.writeln("NO");
+    }
 </script>
 </body>
 </html>

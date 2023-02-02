@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    class Bank{
+        constructor(accountNumber, name , money) {
+            this.accountNumber = accountNumber;
+            this.name = name ;
+            this.money = money;
+        }
+        getAcountNumber(){
+            return this.accountNumber;
+        }
+        getName(){
+            return this.name;
+        }
+        getMoney(){
+            return this.money;
+        }
+        setRecharge(money){
+            if(money > 0){
+                this.money += money;
+            }
+        }
+        setWithdrawal(money){
+            if(money > 0){
+                this.money -= money;
+            }
+        }
+    }
+    let account   = new Bank('911' , 'Nguyễn Danh' , 100);
+    account.setRecharge(+prompt("nhập vào số tiền cần nạp"));
+    console.log(account);
+</script>
+</body>
+</html>
