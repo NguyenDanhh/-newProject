@@ -6,35 +6,41 @@
 </head>
 <body>
 <script>
-    class Bank{
-        constructor(accountNumber, name , money) {
+    class Bank {
+        constructor(accountNumber, name, money) {
             this.accountNumber = accountNumber;
-            this.name = name ;
+            this.name = name;
             this.money = money;
         }
-        getAcountNumber(){
+
+        getAcountNumber() {
             return this.accountNumber;
         }
-        getName(){
+
+        getName() {
             return this.name;
         }
-        getMoney(){
+
+        getMoney() {
             return this.money;
         }
-        setRecharge(money){
-            if(money > 0){
+
+        setRecharge(money) {
+            if (money > 0) {
                 this.money += money;
             }
         }
-        setWithdrawal(money){
-            if(money - this.money  > 0){
-                document.writeln("Số dư không đủ ")
-            }else {
+
+        setWithdrawal(money) {
+            if (money - this.money > 0) {
+                document.writeln("Số dư không đủ ");
+            } else {
                 this.money -= money;
             }
         }
     }
-    let account   = new Bank('911' , 'Nguyễn Danh' , 100);
+
+    let account = new Bank('911', 'Nguyễn Danh', 100);
     document.writeln('Stk : ' + account.accountNumber + ' Tên : ' + account.name + ' Số dư :' + account.money + '<br>');
     account.setWithdrawal(20);
     account.setRecharge(130);
