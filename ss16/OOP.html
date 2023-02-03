@@ -27,14 +27,20 @@
             }
         }
         setWithdrawal(money){
-            if(money > 0){
+            if(money - this.money  > 0){
+                document.writeln("Số dư không đủ ")
+            }else {
                 this.money -= money;
             }
         }
     }
     let account   = new Bank('911' , 'Nguyễn Danh' , 100);
-    account.setRecharge(+prompt("nhập vào số tiền cần nạp"));
-    console.log(account);
+    document.writeln('Stk : ' + account.accountNumber + ' Tên : ' + account.name + ' Số dư :' + account.money + '<br>');
+    account.setWithdrawal(20);
+    account.setRecharge(130);
+    document.writeln(account.getMoney())
+
+
 </script>
 </body>
 </html>
