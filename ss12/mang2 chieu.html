@@ -6,17 +6,26 @@
 </head>
 <body>
 <script>
-    let number = +prompt("Nhập vào độ dài của mảng ");
-    let array = new Array(number);
-    for(let i = 0 ; i < array.length ; i++){
-        let number1 = +prompt("Nhập vào độ dài của phần tử thứ " + (i +1 ));
-        let array1 = [];
-        for (let j = 0 ; j < number1 ; j++){
-            array1[j] = +prompt("Nhập vào giá trị mảng con thứ " + (j+1))
-            array[i]=array1;
-        }
+    // let number = +prompt("Nhập vào độ dài của mảng ");
+    // let array = new Array(number);
+    // for(let i = 0 ; i < array.length ; i++){
+    //     let number1 = +prompt("Nhập vào độ dài của phần tử thứ " + (i +1 ));
+    //     let array1 = [];
+    //     for (let j = 0 ; j < number1 ; j++){
+    //         array1[j] = +prompt("Nhập vào giá trị mảng con thứ " + (j+1))
+    //         array[i]=array1;
+    //     }
+    // }
+    // console.log(array);
+
+
+
+    let n = +prompt("Nhập đọ dài của mảng ");
+    let arr = [];
+    for (let i = 0; i < n; i++) {
+        arr[i] = +prompt("Nhập phần tử thứ " + (i + 1));
     }
-    console.log(array);
+    console.log(arr)
 </script>
 </body>
 </html>

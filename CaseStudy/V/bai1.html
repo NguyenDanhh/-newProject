@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<script>
+    let n = +prompt("Nhập độ dài của mảng ");
+    let arr = new Array(n)
+    for (let i = 0; i < arr.length; i++) {
+        let arr1 = [];
+        let m = +prompt("Nhập độ dài phần từ con thứ" + (i + 1));
+        for (let j = 0; j < m; j++) {
+            arr1[j] = +prompt("Nhập phần giá trụ thứ " + (j + 1));
+            arr[i] = arr1;
+        }
+    }
+    console.log(arr);
+    let sum = 0;
+    for (let i = 0; i < arr.length; i++) {
+        for (let j = 0; j < arr[i].length; j++) {
+            if (arr[i][j] % 2 == 0) {
+                sum += arr[i][j];
+            }
+        }
+    }
+    document.writeln('Tổng các số chẵn trong mảng : ' + sum);
+</script>
+</body>
+</html>
