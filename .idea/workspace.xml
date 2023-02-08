@@ -20,15 +20,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="27af02f3-c6b6-4cf3-8080-1f786a36f369" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/CaseStudy/I/bai1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CaseStudy/I/bai2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CaseStudy/V/bai1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CaseStudy/V/bai2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CaseStudy/V/bai3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CaseStudy/Task2/bai2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CaseStudy/Task2/bai3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CaseStudy/Task5/bai3.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CaseStudy/III/bai5.html" beforeDir="false" afterPath="$PROJECT_DIR$/CaseStudy/III/bai5.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CaseStudy/I/bai1.html" beforeDir="false" afterPath="$PROJECT_DIR$/CaseStudy/Task2/bai1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CaseStudy/I/bai2.html" beforeDir="false" afterPath="$PROJECT_DIR$/CaseStudy/Task6/oop.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CaseStudy/II/bai1.html" beforeDir="false" afterPath="$PROJECT_DIR$/CaseStudy/Task1/bai1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CaseStudy/II/bai2.html" beforeDir="false" afterPath="$PROJECT_DIR$/CaseStudy/Task1/bai2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CaseStudy/III/bai1.html" beforeDir="false" afterPath="$PROJECT_DIR$/CaseStudy/Task3/bai1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CaseStudy/III/bai2.html" beforeDir="false" afterPath="$PROJECT_DIR$/CaseStudy/Task3/bai2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CaseStudy/III/bai3.html" beforeDir="false" afterPath="$PROJECT_DIR$/CaseStudy/Task3/bai3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CaseStudy/III/bai4.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CaseStudy/III/bai5.html" beforeDir="false" afterPath="$PROJECT_DIR$/CaseStudy/Task3/bai4.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CaseStudy/IV/bai1.html" beforeDir="false" afterPath="$PROJECT_DIR$/CaseStudy/Task4/bai1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CaseStudy/V/bai1.html" beforeDir="false" afterPath="$PROJECT_DIR$/CaseStudy/Task5/bai1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CaseStudy/V/bai2.html" beforeDir="false" afterPath="$PROJECT_DIR$/CaseStudy/Task5/bai2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CaseStudy/V/bai3.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/ss12/mang2 chieu.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss12/mang2 chieu.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss7/bai1.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss7/bai1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss16/OOP.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss16/OOP.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,14 +84,14 @@
       <recent name="D:\codegym\newExercise\ss8\luyentap1" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.bai3.html">
+  <component name="RunManager" selected="JavaScript Debug.bai2.html (1)">
     <configuration name="bai1.html (1)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/newExercise/ss10/luyentap1/bai1.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="bai1.html (2)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/newExercise/CaseStudy/IV/bai1.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="bai1.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/newExercise/ss14/luyentap2/bai1.html" useBuiltInWebServerPort="true">
+    <configuration name="bai2.html (1)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/newExercise/CaseStudy/I/bai2.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="bai2.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/newExercise/CaseStudy/II/bai2.html" useBuiltInWebServerPort="true">
@@ -98,11 +108,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.bai2.html (1)" />
         <item itemvalue="JavaScript Debug.bai3.html" />
         <item itemvalue="JavaScript Debug.bai1.html (2)" />
         <item itemvalue="JavaScript Debug.bai2.html" />
         <item itemvalue="JavaScript Debug.bai1.html (1)" />
-        <item itemvalue="JavaScript Debug.bai2.html" />
       </list>
     </recent_temporary>
   </component>
@@ -162,7 +172,10 @@
       <workItem from="1675617167448" duration="15000" />
       <workItem from="1675651918257" duration="6325000" />
       <workItem from="1675666431915" duration="2697000" />
-      <workItem from="1675671165393" duration="5527000" />
+      <workItem from="1675671165393" duration="6017000" />
+      <workItem from="1675689063142" duration="1565000" />
+      <workItem from="1675733001576" duration="7171000" />
+      <workItem from="1675837962205" duration="1999000" />
     </task>
     <servers />
   </component>

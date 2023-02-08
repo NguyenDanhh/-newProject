@@ -18,14 +18,15 @@
     }
     document.writeln("Mảng A : " + arr + '<br>');
     document.writeln("Mảng B : " + arr2 + '<br>');
-    for (let k = 0; k < arr.length; k++) {
-        for (let z = 0; z < arr2.length; z++) {
-            if (arr[k] == arr2[z]) {
-                arr.splice(arr[k], 1);
+    for (let i = 0; i < arr2.length; i++) {
+        for (let j = 0; j < arr.length; j++) {
+            if (arr2[i] == arr[j]) {
+                arr2.splice(i , 1);
             }
         }
     }
-    document.writeln(arr);
+    document.writeln(arr2);
+
 </script>
 </body>
 </html>
