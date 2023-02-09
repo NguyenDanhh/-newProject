@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let arr = [];
+    let count = 0
+    let str = prompt("Nhập vào ký tự thứ nhất");
+    let str1 = prompt("Nhập vào ký tự thứ hai");
+    for (let i = 0; i < str.length; i++) {
+        if (str[i] == str1[i]) {
+            arr.push(str[i], 1);
+            count++;
+        }
+    }
+    document.writeln(arr)
+</script>
+</body>
+</html>
