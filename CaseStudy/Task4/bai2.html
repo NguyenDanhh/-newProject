@@ -9,19 +9,16 @@
     let n = prompt("Nhập vào chuỗi cần kiểm tra ");
 
     function checkString(string) {
-        let count = 0;
-        document.writeln(string + '<br>');
-        for (let i = 0; i < string.length; i++) {
-            for (let j = 1; j < string.length; j++) {
-                if (string[i] == string[j]) {
-                    string.splice(j, 1);
-                    count++;
-                    break;
+        let array = string.split("");
+        document.writeln(array + '<br>');
+        for (let i = 0; i < array.length; i++) {
+            for (let j = 1; j < array.length; j++) {
+                if (array[i] == array[j] && i != j) {
+                    array.splice(j, 1);
                 }
             }
         }
-        document.writeln(' Các kí tự khác nhau :' + string + '<br>');
-        document.writeln(count);
+        document.writeln(' Các kí tự khác nhau :' + array + '<br>');
 
     }
 

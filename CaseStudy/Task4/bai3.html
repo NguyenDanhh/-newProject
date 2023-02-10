@@ -6,17 +6,25 @@
 </head>
 <body>
 <script>
-    let arr = [];
-    let count = 0
-    let str = prompt("Nhập vào ký tự thứ nhất");
-    let str1 = prompt("Nhập vào ký tự thứ hai");
-    for (let i = 0; i < str.length; i++) {
-        if (str[i] == str1[i]) {
-            arr.push(str[i], 1);
-            count++;
+    let n = prompt("Nhập vào chuỗi cần kiểm tra ");
+
+    function checkString(string) {
+        let array = string.split("");
+        let array1 = Array();
+        document.writeln(array + '<br>');
+        for (let i = 0; i < array.length; i++) {
+            for (let j = 1; j < array.length; j++) {
+                if (array[i] == array[j] && i != j) {
+                    array1.push(array[i]);
+                    array.splice(j, 1);
+                }
+            }
         }
+        document.writeln(' Các kí tự khác nhau :' + array1 + '<br>');
+
     }
-    document.writeln(arr)
+
+    checkString(n);
 </script>
 </body>
 </html>
