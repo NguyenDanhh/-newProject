@@ -20,12 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="27af02f3-c6b6-4cf3-8080-1f786a36f369" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CaseStudy/Task3/bai3.html" beforeDir="false" afterPath="$PROJECT_DIR$/CaseStudy/Task3/bai3.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CaseStudy/Task4/bai1.html" beforeDir="false" afterPath="$PROJECT_DIR$/CaseStudy/Task4/bai1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CaseStudy/Task4/bai2.html" beforeDir="false" afterPath="$PROJECT_DIR$/CaseStudy/Task4/bai2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CaseStudy/Task4/bai3.html" beforeDir="false" afterPath="$PROJECT_DIR$/CaseStudy/Task4/bai3.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss12/mang2 chieu.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss12/mang2 chieu.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CaseStudy/Task5/bai1.html" beforeDir="false" afterPath="$PROJECT_DIR$/CaseStudy/Task5/bai1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CaseStudy/Task5/bai3.html" beforeDir="false" afterPath="$PROJECT_DIR$/CaseStudy/Task5/bai3.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -165,7 +161,7 @@
       <workItem from="1675837962205" duration="10375000" />
       <workItem from="1675904911673" duration="6547000" />
       <workItem from="1675924396557" duration="3636000" />
-      <workItem from="1675992194142" duration="4460000" />
+      <workItem from="1675992194142" duration="4790000" />
     </task>
     <servers />
   </component>

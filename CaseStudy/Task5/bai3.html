@@ -17,31 +17,33 @@
         }
     }
     console.log(arr);
+
     function findMax(x) {
         let max = x[0][0];
-        for(let i = 0 ; i < x.length ; i++){
-            for(let j = 0 ; j < x[i].length ; j++){
-                if(x[i][j] > max){
+        for (let i = 0; i < x.length; i++) {
+            for (let j = 0; j < x[i].length; j++) {
+                if (x[i][j] > max) {
                     max = x[i][j];
                 }
             }
         }
-        return max ;
+        return max;
     }
 
     function findMin(x) {
         let min = x[0][0];
-        for(let i = 0 ; i < x.length ; i++){
-            for(let j = 0 ; j < x[i].length ; j++){
-                if(x[i][j] < min){
+        for (let i = 0; i < x.length; i++) {
+            for (let j = 0; j < x[i].length; j++) {
+                if (x[i][j] < min) {
                     min = x[i][j];
                 }
             }
         }
-        return min ;
+        return min;
     }
-    document.writeln('Phần tử lớn nhất trong mảng : '+ findMax(arr) +' <br>');
-    document.writeln('Phần tử nhỏ nhất trong mảng : '+ findMin(arr) +' <br>');
+
+    document.writeln('Phần tử lớn nhất trong mảng : ' + findMax(arr) + ' <br>');
+    document.writeln('Phần tử nhỏ nhất trong mảng : ' + findMin(arr) + ' <br>');
 </script>
 </body>
 </html>
