@@ -12,27 +12,35 @@
         let array1 = [];
         let m = +prompt("Nhập vào độ dài của mảng con " + (i + 1));
         for (let j = 0; j < m; j++) {
-            array1[j] = +prompt("Nhập vào giá trị thứ " + (i + 1));
+            array1[j] = +prompt("Nhập vào giá trị thứ " + (j + 1));
             array[i] = array1;
         }
     }
     console.log(array);
+    let flag = true;
     let count = 0;
     for (let i = 0; i < array.length; i++) {
         for (let j = 0; j < array[i].length; j++) {
             if (array[i][j] < 2) {
                 flag = false;
             } else {
-                for (let y = 2; y < array[i][j] - 1; y++) {
-                    if (array[i][j] % y == 0) {
+                flag = true;
+                for (let k = 2; k < array[i][j]; k++) {
+                    if (array[i][j] % k == 0) {
                         flag = false;
+                        break;
                     }
+                }
+                if (flag) {
+                    document.writeln(array[i][j]);
+                    count++;
                 }
             }
         }
     }
+    document.writeln('<br>' + 'Có ' + count + ' số nguyên tố xuất hiện trong mảng ');
 
-    document.writeln('<br>' + count);
+
 </script>
 </body>
 </html>
